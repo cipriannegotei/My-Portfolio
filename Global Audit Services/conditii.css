@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+ }
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+  font-family: 'Montserrat', sans-serif;
+ }
+
+ /*header */
+
+ header {
+  z-index: 2;
+  background-color: rgb(54,200,187, 0.9);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+  position: fixed;
+  backdrop-filter: blur(2px);
+}
+
+header .logo {
+height: 3em;
+opacity: 0.9;
+display: flex;
+}
+
+
+header ul {
+  justify-content: flex-end;
+  list-style-type: none;
+  display: flex;
+  list-style-position: unset;
+}
+
+li {
+  padding-left: 2em;
+
+} 
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: rgb(54,200,187);
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(54,200,187)}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+header a {
+ text-decoration: none;
+ color:rgb(44, 24, 226); 
+ font-weight: 700;
+ font-family: sans-serif;
+}
+ /*continut pagina */
+
+ .content {
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+ .titlu {
+    text-align: center;
+    color: rgb(44, 24, 226);
+    padding-top: 200px;
+    padding-bottom: 40px; 
+ }
+
+ .descriere {
+     width: 80%;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     line-height: 30px;
+ }
+
+ .text {
+    justify-content:  center;
+    color:rgb(44, 24, 226); 
+    padding-top: 40px;
+    padding-bottom: 80px; 
+ }
+
+ .ctb {
+    list-style-type: circle;
+    color:rgb(44, 24, 226); 
+    list-style-position: inside;
+    padding-bottom: 120px;
+    display: block;
+ }
+ 
+
+ /* footer */
+ footer {
+    background-color: rgb(54,200,187);
+    border-top-right-radius: 70%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+  }
+  
+  h4 {
+    margin-bottom: 20px;
+    color:rgb(44, 24, 226); 
+    font-size: 1.5em;
+  
+  
+  }
+  footer p{
+    padding-bottom: 30px;
+    color:rgb(44, 24, 226); 
+    font-size: 1em;
+    justify-content: center;
+    padding:10px ;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+.fa-instagram {
+    background: #e25e95;
+    color: white;
+  }
+
+ 
